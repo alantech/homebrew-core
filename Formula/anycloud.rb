@@ -12,9 +12,6 @@ class Anycloud < Formula
   end
 
   test do
-    (testpath/".anycloud/deploy.json").write <<~EOS
-      { }
-    EOS
-    system "anycloud", "info"
+    system "anycloud", "--version"
   end
 end
