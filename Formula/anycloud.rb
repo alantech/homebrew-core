@@ -7,7 +7,7 @@ class Anycloud < Formula
   revision 1
 
   def install
-    puts "Installing anycloud..."
+    puts "Installing AnyCloud..."
     bin.install "anycloud"
   end
 
