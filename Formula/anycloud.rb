@@ -4,7 +4,6 @@ class Anycloud < Formula
   url "https://github.com/alantech/anycloud/releases/download/v0.1.4/anycloud-macos.tar.gz"
   sha256 "3167633d004b031d329692d6cbf6cea6c6b4ee0cc13565d8fcd6edf9fe8a4cdd"
   license "Apache-2.0"
-  revision 1
 
   def install
     puts "Installing AnyCloud..."
