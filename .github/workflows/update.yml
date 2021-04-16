@@ -6,7 +6,6 @@ on:
       alan_version:
         description: 'Alan released version'
         required: true
-        default: 'v0.1.36'
 
 jobs:
   update:
