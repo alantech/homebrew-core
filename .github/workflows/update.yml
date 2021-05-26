@@ -7,6 +7,14 @@ on:
         description: 'Alan released version'
         required: true
 
+  repository_dispatch:
+    branches:
+      - auto-update
+    inputs:
+      alan_version:
+        description: 'Alan released version'
+        required: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
