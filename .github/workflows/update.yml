@@ -2,6 +2,8 @@ name: update
 
 on:
   workflow_dispatch:
+    branches:
+      - auto-update
     inputs:
       alan_version:
         description: 'Alan released version'
@@ -15,13 +17,6 @@ on:
         description: 'Alan released version'
         required: true
   
-  workflow_dispatch:
-    branches:
-      - auto-update
-    inputs:
-      alan_version:
-        description: 'Alan released version'
-        required: true
 
 jobs:
   update:
