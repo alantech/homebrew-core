@@ -20,3 +20,4 @@ brew upgrade <formula>
 
 ## Available formulae
 - [x] [alan](https://github.com/alantech/alan)
+- [x] [iasql](https://iasql.com)
