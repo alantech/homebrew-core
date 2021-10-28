@@ -3,7 +3,7 @@ name: update IaSQL
 on:
   workflow_dispatch:
     inputs:
-      alan_version:
+      iasql_version:
         description: 'IaSQL released version'
         required: true
 
